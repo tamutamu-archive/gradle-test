@@ -56,3 +56,9 @@ uploadArchives {
     }
   }
 }
+
+release {
+  git {
+    requireBranch = 'develop'
+  }
+}
